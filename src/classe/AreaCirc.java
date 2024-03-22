@@ -13,7 +13,7 @@ public class AreaCirc {
 	raio = raioInicial;
  }
 
-   double  area() {
+   static  double  area(double raio) {
 	return PI * Math.pow(raio, 2);
 	
 	
